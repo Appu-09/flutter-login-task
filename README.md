@@ -1,4 +1,6 @@
 Flutter Login Task – RoundTechSquare Internship
+
+
 This project is a basic login screen built using Flutter as part of the RoundTechSquare internship assessment through Cuvette.
 
 ✅ Features Implemented
@@ -19,17 +21,23 @@ Sends email and password in JSON body
 Shows "Login Successful" message using Get.snackbar
 Navigates to a Home Screen
 Stores the authentication token securely using flutter_secure_storage
+
+
 ❌ On Failure
 Displays server error message from the API
 
 📦 Tech Stack Used
 Flutter
+
 GetX – for state management and navigation
+
 http – for REST API calls
+
 flutter_secure_storage – for securely storing the token
 
 🧪 Test Credentials
 The following test credentials work with the dummy API:
 
 Email: john@mail.com
+
 Password: changeme
