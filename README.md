@@ -1,20 +1,30 @@
-<<<<<<< HEAD
-# flutter-login-task
-=======
-# login_task_app
+Flutter Login Task – RoundTechSquare Internship
+This project is a basic login screen built using Flutter as part of the RoundTechSquare internship assessment through Cuvette.
 
-A new Flutter project.
+✅ Features Implemented
+🖥️ UI Components
+Login screen with two input fields: Email and Password
+Login button with loading state
+Basic Material Design UI
+✅ Validation
+Displays error if fields are empty
+Shows API error if credentials are invalid
+🔌 API Integration
+Uses HTTP POST request to this dummy API: https://api.escuelajs.co/api/v1/auth/login
+Sends email and password in JSON body
+🔐 On Successful Login
+Shows "Login Successful" message using Get.snackbar
+Navigates to a Home Screen
+Stores the authentication token securely using flutter_secure_storage
+❌ On Failure
+Displays server error message from the API
+📦 Tech Stack Used
+Flutter
+GetX – for state management and navigation
+http – for REST API calls
+flutter_secure_storage – for securely storing the token
+🧪 Test Credentials
+The following test credentials work with the dummy API:
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> f0f60cf (Initial commit for RoundTechSquare internship task)
+Email: john@mail.com
+Password: changeme
